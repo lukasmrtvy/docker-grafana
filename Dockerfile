@@ -24,7 +24,7 @@ RUN addgroup -S ${GROUP} -g ${GID} && adduser -D -S -u ${UID} ${USER} ${GROUP}  
 EXPOSE 3000
 
 LABEL version=${GRAFANA_VERSION}
-LABEL url=https://api.github.com/repos/grafana/grafana/releases/latest
+LABEL url=https://github.com/grafana/grafana/
 
 USER ${USER}
 
